@@ -1,5 +1,5 @@
 // Fetch data from data.json asynchronously
-fetch('/data.json')
+fetch('https://kurt-lo.github.io/result-summary-component/data.json')
     .then(response => response.json())
     .then(data => {
         // Get the container element where the dynamic content will be added
